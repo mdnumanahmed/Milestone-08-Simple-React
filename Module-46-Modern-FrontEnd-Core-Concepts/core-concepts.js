@@ -32,3 +32,36 @@ Search engine optimization (SEO)
 
 
 */
+
+/* 
+URL এর যে অংশের (pathname) উপর ভিত্তি করে ওয়েবসাইট এর আংশিক বা সম্পূর্ন ডাটা পবির্তনের পদ্ধতিকে route বলে। 
+
+*/
+
+/* 
+Attributes are defined by HTML. Properties are accessed from DOM (Document Object Model) nodes.
+
+While writing HTML code, you can define attributes on your HTML elements. Then, once the browser parses your code, a corresponding DOM node will be created. This node is an object, and therefore it has properties.
+
+
+Attribute: Attributes are defined by HTML and are used to customize a tag.
+Properties: HTML DOM properties are values (of HTML Elements) that you can set or change.
+So, the main differences between attributes and properties are:
+Attributes are defined by HTML, but properties are defined by the DOM.
+The value of an attribute is constant, but the value of a property is variable.
+The attribute’s main role is to initializes the DOM properties. So, once the DOM initialization complete, the attributes job is done.
+*/
+
+/* 
+Website এর কোন কিছু User interaction এর কারণে পরিবর্তন হওয়াকে state বলে।
+*/
+
+/* 
+Create React App using vite
+--> npm create vite@latest project-name
+--> select framework React
+--> select variant JavaScript
+--> change directory to created application
+--> npm install 
+--> npm run dev
+*/
