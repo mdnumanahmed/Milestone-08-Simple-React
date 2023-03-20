@@ -65,3 +65,67 @@ Create React App using vite
 --> npm install 
 --> npm run dev
 */
+
+/* 
+Core Concept and Interview Questions
+
+What are components in react?
+-> Building block of the user interfaces.
+-> Each component exists in the same space but work independently.
+-> All of the components are being merged in a parent component. (final ui)
+-> Splits UI into independent and reuseable pieces.
+-> Accept input called props (optional) and return react element.
+-> Re-useable having their own structure and methods.
+
+Advantages of component
+-> Re-useability
+-> Fast Development
+-> Design Consistency
+-> Maintainability (Update just one component & get result in all spaces related to this component)
+
+What are single page Application
+1. Only one web page, and each time something happens, only part of the page is reloaded while the rest of the HTML remain unchanged.
+2. All user interaction with this service is carried out using one screen (page)
+3. Load all the necessary HTML, CSS and JavaScript in initial load, then dynamically update their DOM and retrieve extra data based on user interaction.
+4. Give the users the illusion that they are accessing different pages or paths. 
+5. Enable to combine a complex functionality of an MPA with the convenient navigation (a hybrid approach)
+
+
+
+*/
+
+/* 
+SPA vs MPA 
+                    SPA 
+Structure           One page 
+Shareable links     One link for the whole website 
+Loading             Longer initial loading , but after that each piece
+                     of content is instantly refreshed 
+Security            Needs more data protection on client side 
+UI and UX           Looks and feels like a native app 
+Offline mode        Works with poor or non - existent internet
+SEO friendliness    Not SEO friendly , but optimization can be improved 
+Scalability         Difficult 
+
+
+
+
+MPA 
+
+Many pages 
+
+Many links 
+
+A bit quicker initial loading , but then the app reloads the whole page on each user's action which is time - consuming 
+
+Each page is protected on the server 
+
+Must be adapted for mobile 
+
+Does not work without the internet 
+
+Works with all search engines 
+
+Almost unlimited 
+
+*/
